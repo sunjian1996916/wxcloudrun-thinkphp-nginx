@@ -1,7 +1,0 @@
-.git
-.dockerignore
-Dockerfile*
-composer*
-container.config.json
-LICENSE
-README.md
