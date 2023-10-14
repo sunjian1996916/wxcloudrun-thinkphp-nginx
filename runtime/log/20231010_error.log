@@ -1,0 +1,25 @@
+2023-10-10 14:44:58|error|1|183.250.229.89|137|post|adminapi|/adminapi/file/upload|{"pid":"1"}|{"file":"/www/wwwroot/qingyuan/app/services/system/attachment/SystemAttachmentServices.php","line":151,"message":"不合法的文件后缀","code":0}
+2023-10-10 14:45:01|error|1|183.250.229.89|135|post|adminapi|/adminapi/file/upload|{"pid":"1"}|{"file":"/www/wwwroot/qingyuan/app/services/system/attachment/SystemAttachmentServices.php","line":151,"message":"不合法的文件后缀","code":0}
+2023-10-10 19:56:02|error|[0]Unable to write output.[/www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php:345]
+2023-10-10 19:56:02|error|[1]Uncaught RuntimeException: Unable to write output. in /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php:345
+Stack trace:
+#0 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php(67): think\console\output\driver\Console->doWrite()
+#1 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php(108): think\console\output\driver\Console->write()
+#2 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/Output.php(167): think\console\output\driver\Console->renderException()
+#3 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/exception/Handle.php(126): think\console\Output->renderException()
+#4 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/initializer/Error.php(56): think\exception\Handle->renderForConsole()
+#5 [internal function]: think\initializer\Error->appException()
+#6 {main}
+  thrown[/www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php:345]
+2023-10-10 19:56:05|error|[0]Unable to write output.[/www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php:345]
+2023-10-10 19:56:05|error|[1]Uncaught RuntimeException: Unable to write output. in /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php:345
+Stack trace:
+#0 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php(67): think\console\output\driver\Console->doWrite()
+#1 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php(108): think\console\output\driver\Console->write()
+#2 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/Output.php(167): think\console\output\driver\Console->renderException()
+#3 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/exception/Handle.php(126): think\console\Output->renderException()
+#4 /www/wwwroot/qingyuan/vendor/topthink/framework/src/think/initializer/Error.php(56): think\exception\Handle->renderForConsole()
+#5 [internal function]: think\initializer\Error->appException()
+#6 {main}
+  thrown[/www/wwwroot/qingyuan/vendor/topthink/framework/src/think/console/output/driver/Console.php:345]
+2023-10-10 21:32:42|error|1|183.250.229.89|140|post|adminapi|/adminapi/file/upload|{"pid":"1"}|{"file":"/www/wwwroot/qingyuan/app/services/system/attachment/SystemAttachmentServices.php","line":151,"message":"不合法的文件后缀","code":0}
